@@ -1,5 +1,13 @@
 <?php
 
+function coastora_theme_support()
+{
+    // Adds dynamic title tag support
+    add_theme_support('title-tag');
+}
+
+add_action('after_theme_setup', 'coastora_theme_support');
+
 function coastora_register_styles()
 {
     $version = wp_get_theme()->get("Version");
