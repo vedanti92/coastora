@@ -6,7 +6,7 @@ function coastora_theme_support()
     add_theme_support('title-tag');
 }
 
-add_action('after_theme_setup', 'coastora_theme_support');
+add_action('after_setup_theme', 'coastora_theme_support');
 
 function coastora_register_styles()
 {
