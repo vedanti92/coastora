@@ -36,7 +36,8 @@
                     array(
                         'menu' => 'primary',
                         'container' => '',
-                        'theme_location' => 'primary'
+                        'theme_location' => 'primary',
+                        'items_wrap' => '<ul id="" class="">%3$s</ul>'
                     )
                 )
                     ?>
