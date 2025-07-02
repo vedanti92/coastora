@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Coastora">
     <meta name="author" content="https://vedanti.netlify.app">
-    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="shortcut icon" href="/wp-content/themes/coastora-theme/assets/images/logo.png">
 
     <?php
     wp_head();
