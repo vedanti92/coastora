@@ -35,7 +35,7 @@
                     $logo = wp_get_attachment_image_src($custom_logo_id);
                 }
                 ?>
-                <img class="mb-3 mx-auto logo" src="images/logo.png" alt="logo">
+                <img class="mb-3 mx-auto logo" src="<?php echo $logo[0] ?>" alt="logo">
 
                 <?php
                 wp_nav_menu(
