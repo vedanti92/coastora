@@ -9,7 +9,7 @@
             <h2 class="comment-reply-title">
                 <?php
                 if (!have_comments()) {
-                    "Leave a comment";
+                    echo "Leave a comment";
                 } else {
                     get_comments_count() . " Comments";
                 }
