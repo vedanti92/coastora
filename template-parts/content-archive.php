@@ -3,7 +3,7 @@
         <div class="media">
             <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="images/thumbs/1.jpg" alt="image">
             <div class="media-body">
-                <h3 class="title mb-1"><a href="post.html">Why Every Developer Should Have A Blog</a></h3>
+                <h3 class="title mb-1"><?php the_title() ?></h3>
                 <div class="meta mb-1"><span class="date">Published 2 days ago</span><span class="time">5 min
                         read</span><span class="comment"><a href="#">8 comments</a></span></div>
                 <div class="intro">
