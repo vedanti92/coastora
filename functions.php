@@ -41,4 +41,23 @@ function coastora_register_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'coastora_register_scripts');
+
+function coastora_widget_areas()
+{
+    register_sidebar(
+        array(
+            'before_title' => '',
+            'after_title' => '',
+            'before_widget' => '',
+            'after_widget' => ''
+        ),
+        array(
+            'name' => 'Sidebar Area',
+            'id' => 'sidebar-1',
+            'description' => 'Sidebar Widget Area'
+        )
+    );
+}
+
+add_action('widgets_init', 'coastora_widget_areas');
 ?>
