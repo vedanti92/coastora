@@ -57,10 +57,16 @@ Author URI: https://vedanti.netlify.app
 
 html {
   line-height: 1.15;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 body {
   color: var(--secondary);
   overflow-x: hidden;
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
 }
 a {
   color: var(--pink);
@@ -192,6 +198,7 @@ h6 {
 }
 
 .main-wrapper {
+  flex: 1;
   margin-left: var(--sidebar-width);
   background: #fff;
 }
@@ -216,6 +223,7 @@ h6 {
 
 .footer {
   color: rgba(255, 255, 255, 0.7);
+  text-align: center !important;
 }
 
 .footer a {
