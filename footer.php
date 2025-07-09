@@ -1,4 +1,5 @@
-<footer class="footer text-center py-2 theme-bg-dark">
+</div>
+<footer class="footer py-2 theme-bg-dark">
 
     <p class="copyright"><a href="#">Coastora</a></p>
     <?php
@@ -6,8 +7,6 @@
     ?>
 
 </footer>
-
-</div>
 
 <?php
 wp_footer();
