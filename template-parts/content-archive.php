@@ -14,7 +14,7 @@
                     the_excerpt();
                     ?>
                 </div>
-                <a class="more-link" href="<?php the_permalink(); ?>">Read more &rarr;</a>
+                <a class="more-link" href="<?php the_permalink(); ?>">Read more &nbsp; &rarr;</a>
             </div><!--//media-body-->
         </div><!--//media-->
     </div>

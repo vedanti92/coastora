@@ -272,6 +272,7 @@ h6 {
 
 .content .post .more-link {
   font-size: var(--font-small);
+  color: #007bff;
 }
 
 .meta {
