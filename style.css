@@ -121,17 +121,18 @@ h6 {
   top: 0;
   height: 100vh;
   width: var(--sidebar-width);
-  background: #003e95;
-  color: #fff;
+  background: #222222;
+  
 }
 
 .header .site-title {
-  color: var(--white);
+  color: #3F8FFF;
   font-size: 3.5em;
   display: block;
   margin-top: 0.5em;
   font-family: "Imperial Script", cursive;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .header .btn-primary {
@@ -188,7 +189,7 @@ h6 {
   color: #b7d5ff;
 }
 .logo {
-  width: 78px;
+  width: 150px;
 }
 .social-list a {
   width: 32px;
