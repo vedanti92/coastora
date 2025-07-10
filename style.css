@@ -8,6 +8,8 @@ Author: Vedanti Bagade
 Author URI: https://vedanti.netlify.app
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -62,6 +64,7 @@ html {
   padding: 0;
 }
 body {
+  font-family: "Merriweather", serif;
   color: var(--secondary);
   overflow-x: hidden;
   min-height: 100vh;
@@ -118,14 +121,17 @@ h6 {
   top: 0;
   height: 100vh;
   width: var(--sidebar-width);
-  background: #003E95;
+  background: #003e95;
   color: #fff;
 }
 
 .header .site-title {
   color: var(--white);
-  font-size: 1.2em;
+  font-size: 3.5em;
   display: block;
+  margin-top: 0.5em;
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
 }
 
 .header .btn-primary {
@@ -177,7 +183,7 @@ h6 {
 
 .header .nav-item a:hover {
   text-decoration: underline;
-  color: #B7D5FF;
+  color: #b7d5ff;
 }
 .logo {
   width: 78px;
@@ -191,7 +197,7 @@ h6 {
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
   background-color: #fff;
-  color: #579DFF;
+  color: #579dff;
 }
 
 .social-list a:hover {
@@ -239,8 +245,8 @@ h6 {
   background: linear-gradient(
     151deg,
     #222222 0%,
-    #0047AB 35%,
-    #579DFF 100%
+    #0047ab 35%,
+    #579dff 100%
   ) !important;
 }
 .content .post .title {
@@ -409,11 +415,11 @@ h6 {
   .header .site-title {
     width: 100%;
     position: absolute;
-    left: 0;
-    top: 1.2rem;
+    top: -0.4rem;
     color: var(--white);
-    font-size: 1.5em;
+    font-size: 3.5em;
     display: block;
+    margin-top: 0;
   }
 
   .header .btn-primary {
