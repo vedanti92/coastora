@@ -172,12 +172,12 @@ h6 {
 }
 
 .header .nav-item a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fafafa;
 }
 
 .header .nav-item a:hover {
   text-decoration: underline;
-  color: rgba(0, 0, 0, 0.6);
+  color: #B7D5FF;
 }
 .logo {
   width: 78px;
