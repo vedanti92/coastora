@@ -64,7 +64,7 @@ html {
 body {
   color: var(--secondary);
   overflow-x: hidden;
-  min-height: 100vh !important;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -118,9 +118,10 @@ h6 {
   top: 0;
   height: 100vh;
   width: var(--sidebar-width);
-  background: var(--primary);
+  background: #003E95;
   color: #fff;
 }
+
 .header .site-title {
   color: var(--white);
   font-size: 1.2em;
@@ -190,11 +191,12 @@ h6 {
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
   background-color: #fff;
+  color: #579DFF;
 }
 
 .social-list a:hover {
-  color: var(--secondary);
-  background-color: rgba(255, 255, 255, 0.8);
+  color: #fafafa;
+  background-color: #222222;
 }
 
 .main-wrapper {
@@ -206,6 +208,7 @@ h6 {
 .main-wrapper .container {
   max-width: var(--content-max-width);
 }
+
 .page-title {
   position: sticky;
   top: 0;
@@ -215,6 +218,7 @@ h6 {
 .sticky {
   padding: 1em 0 !important;
 }
+
 .page-title .heading {
   font-size: 2rem;
   font-weight: bold;
@@ -229,13 +233,14 @@ h6 {
 .footer a {
   color: #fff;
 }
+
 .gradient {
   background: rgb(43, 43, 43);
   background: linear-gradient(
     151deg,
-    var(--orange) 0%,
-    var(--pink) 35%,
-    var(--primary) 100%
+    #222222 0%,
+    #0047AB 35%,
+    #579DFF 100%
   ) !important;
 }
 .content .post .title {
