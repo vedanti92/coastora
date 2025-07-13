@@ -758,3 +758,12 @@ div.comment:first-of-type {
 .comment-reply-title small a:hover {
   text-decoration: underline;
 }
+
+.pagination a {
+  color: #222222;
+}
+
+.pagination {
+  color: #579dff;
+  justify-content: center;
+}
