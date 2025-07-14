@@ -487,11 +487,12 @@ div.comment:first-of-type {
 }
 
 .comment-meta {
-  line-height: 1.1;
+  line-height: 1;
   margin-bottom: 0;
-  min-height: 5rem;
+  min-height: 1.5rem;
   padding-left: 5rem;
   position: relative;
+  font-size: 0.8rem;
 }
 
 .hide-avatars .comment-meta {
