@@ -587,7 +587,7 @@ div.comment:first-of-type {
 }
 
 .comment-reply-link {
-  background-color: var(--primary);
+  background-color: #222222;
   border-radius: 2px;
   color: #fff;
   display: block;
