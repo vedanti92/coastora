@@ -664,7 +664,6 @@ div.comment:first-of-type {
 .comment-respond .comment-notes,
 .comment-respond .logged-in-as {
   color: #6d6d6d;
-  font-size: 1.6rem;
   line-height: 1.4;
   margin: -3rem 0 4rem 0;
   text-align: center;
@@ -710,6 +709,7 @@ div.comment:first-of-type {
 .comment-respond input[type="checkbox"] + label {
   font-size: 1.5rem;
   line-height: 1.25;
+  margin-left: 10px;
 }
 
 .comment-respond input[type="text"],
