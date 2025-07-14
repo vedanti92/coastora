@@ -504,7 +504,7 @@ div.comment:first-of-type {
 }
 
 .comment-author {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.027777778em;
 }
@@ -527,7 +527,8 @@ div.comment:first-of-type {
 }
 
 .comment-author .url {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #579dff;
 }
 
 .comment-metadata {
