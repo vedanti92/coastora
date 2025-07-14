@@ -72,7 +72,7 @@ body {
   flex-direction: column;
 }
 a {
-  color: var(--pink);
+  color: #579dff;
 }
 h1,
 h2,
@@ -589,11 +589,10 @@ div.comment:first-of-type {
 }
 
 .comment-reply-link {
-  background-color: #222222;
   border-radius: 2px;
-  color: #fff;
+  color: #579dff;
   display: block;
-  padding: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .bypostauthor .comment-footer-meta .by-post-author {
@@ -725,6 +724,19 @@ div.comment:first-of-type {
 
 .comment-respond #submit {
   display: block;
+  background-color: #ffffff;
+  color: #579dff;
+  font-size: 0.8rem;
+  padding: 0.7rem;
+  border-radius: 2px;
+  border: 1px solid #579dff;
+  cursor: pointer;
+}
+
+.comment-respond #submit:hover {
+  background-color: #222222;
+  color: #ffffff;
+  border: 1px solid #222222;
 }
 
 .comment-respond .comments-closed {
