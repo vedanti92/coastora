@@ -6,7 +6,7 @@
             <div class="media-body">
                 <h3 class="title mb-1"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <div class="meta mb-1">
-                    <span class="date"><?php the_date(); ?></span>
+                    <span class="date"><?php echo get_the_date(); ?></span>
                     <span class="comment"><a href="<?php the_permalink(); ?>/#comments"><?php comments_number(); ?></a></span>
                 </div>
                 <div class="intro">
