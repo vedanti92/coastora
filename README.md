@@ -50,3 +50,8 @@ wp-content/
 - Clean structure using PHP template files (index.php, single.php, header, footer)
 - Responsive layout with HTML, CSS
 - Easy customization via `functions.php` and widget-ready areas
+
+---
+
+## 📸 Screenshot
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c97ae869-0aa1-4215-8488-af8828ee607b" />
